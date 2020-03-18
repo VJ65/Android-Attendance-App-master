@@ -6,7 +6,7 @@ See Demo Here - https://projectworlds.in/android-projects-with-source-code/andro
 
 More Project
 
-Youtube Channel Link :https://www.youtube.com/channel/UCFMkpvtYjSAPXUPjImQK7bg?sub_confirmation=1
+Youtube Channel Link https://www.youtube.com/channel/UCNn8gj0Ls4Ulx5tYr6gVsuA?view_as=subscriber
 
 
 Android is the ideal platform for developing such an application due to the wide variety of devices it supports.
@@ -47,4 +47,4 @@ class then register the number of subjects in that class and can mark the attend
  	<li>Password :-admin123</li>
 </ul>
 &nbsp;
-<h3>Installation :</h3>
+
