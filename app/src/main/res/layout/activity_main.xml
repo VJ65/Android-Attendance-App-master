@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/Accent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/students"></ImageView>
+
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="430dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:textColor="@color/PrimaryDark"
+        android:shadowColor="@color/primaryLight"
+        android:text="AttendancePortal"
+        android:textSize="40sp"></TextView>
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:state_focused="false" android:state_pressed="true"
+        android:drawable="@color/primaryLight"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="@color/app_background"
+        android:background="@drawable/boarder_buttons"
+        android:text="Go Ahead" />
+
+</RelativeLayout>
